@@ -14,6 +14,18 @@ angular.module("avant", ['ngRoute'])
             controller: "homeController",
             templateUrl: "views/home/home.html"
         })
+        .when('/about', {
+            controller: "homeController",
+            templateUrl: "views/home/home.html"
+        })
+        .when('/gallery', {
+            controller: "homeController",
+            templateUrl: "views/home/home.html"
+        })
+        .when('/contact', {
+            controller: "homeController",
+            templateUrl: "views/home/home.html"
+        })
         .otherwise('/dashboard', {
             redirectTo: "/dashboard"
         });
