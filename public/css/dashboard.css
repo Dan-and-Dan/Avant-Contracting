@@ -1,0 +1,55 @@
+body {
+    background-image: url("../images/wood.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    display: none;
+}
+
+.Container{
+    margin-top: 10%;
+}
+.logoContainer {
+    max-height: 400px;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer img{
+    border: 6px solid black;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dashBtn {
+    font-size: 24px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: none;
+    border: white 3px solid;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.dashBtn:hover{
+    transition: ease-in-out;
+    transition-duration: .3s;
+    border:  black 3px solid;
+    color: white;
+    background-color: black;
+}
+
+.dashBtn a{
+        text-decoration: none;
+    color: white;
+}
