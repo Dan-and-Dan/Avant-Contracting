@@ -1,10 +1,9 @@
 .footContainer{
+    z-index: 1000;
     text-align: center;
-    position: fixed;
     color: white;
     background-color: black;
     width: 100%;
-    height:  50px;
     bottom: 0px;
     right: 0px;
     left: 0px;
