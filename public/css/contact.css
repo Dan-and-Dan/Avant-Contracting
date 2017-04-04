@@ -1,4 +1,50 @@
+.contactDiv {
+    color: white;
+    text-align: center;
+    background-image: url(../images/contactbackground.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactDiv h1 {
+    font-size: 56px;
+}
+
 #avantMap {
     height: 40vh;
     width: 100%;
+}
+
+.formContainer {
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.formContainer div {
+    font-size: 24px;
+    opacity: .9;
+    margin-left: 20%;
+    max-width: 60%;
+}
+
+.emailButton {
+    font-weight: bold;
+    letter-spacing: 4px;
+    background: none;
+    color: white;
+    border: white 2px solid;
+    margin-bottom: 20px;
+}
+
+.emailButton:hover {
+    transition: ease-in-out;
+    transition-duration: .4s;
+    background-color: white;
+    color: black;
+    border: white 2px solid;
+    margin-bottom: 20px;
 }

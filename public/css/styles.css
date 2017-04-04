@@ -3,6 +3,7 @@
 }
 
 .footContainer{
+    min-height: 50px;
     z-index: 1000;
     text-align: center;
     color: white;
@@ -13,15 +14,32 @@
     right: 0px;
     left: 0px;
     display: flex;
+    align-content: center;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
 
 .designed{
+    color: dimgrey;
     margin-right: 20px;
+}
+
+.designed a{
+    color: dimgrey;
 }
 
 .copy {
     margin-left: 20px;
+}
+
+.icons i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.icons i:hover{
+    color: goldenrod;
 }
