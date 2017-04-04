@@ -188,7 +188,6 @@
 ], {
                 name: 'Styled Map'
             });
-
         var map = new google.maps.Map(document.getElementById('avantMap'), {
             center: {
                 lat: 42.7226,
@@ -210,7 +209,10 @@
             draggable: false,
             draggable: false
         });
-
         map.mapTypes.set('styled_map', styledMapType);
         map.setMapTypeId('styled_map');
+        google.maps.event.addListenerOnce(map, 'idle', function () {
+            google.maps.event.trigger(map, 'resize');
+            map.setCenter(location);
+        });
     }
