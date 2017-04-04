@@ -21,23 +21,3 @@
 .copy {
     margin-left: 20px;
 }
-
-#brand{
-    color: black !important;
-}
-
-.navItem{
-    color: black;
-}
-
-.nav>li>a:hover{
-    color: goldenrod;
-    background: none;
-}
-.expander{
-    border: black 2px solid;
-}
-
-.expander .icon-bar{
-    background-color: black;
-}
