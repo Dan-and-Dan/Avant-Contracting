@@ -5,13 +5,15 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-nav{
+
+nav {
     display: none;
 }
 
-.Container{
+.Container {
     margin-top: 10%;
 }
+
 .logoContainer {
     max-height: 400px;
     margin-top: 5%;
@@ -21,15 +23,18 @@ nav{
     align-items: center;
 }
 
-.logoContainer img{
+.logoContainer img {
+    padding: 50px;
+    background-color: white;
     border: 6px solid black;
 }
 
-.buttonContainer{
+.buttonContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .dashBtn {
     font-size: 24px;
     width: 300px;
@@ -41,15 +46,15 @@ nav{
     letter-spacing: 4px;
 }
 
-.dashBtn:hover{
+.dashBtn:hover {
     transition: ease-in-out;
     transition-duration: .3s;
-    border:  black 3px solid;
+    border: black 3px solid;
     color: white;
     background-color: black;
 }
 
-.dashBtn a{
-        text-decoration: none;
+.dashBtn a {
+    text-decoration: none;
     color: white;
 }
