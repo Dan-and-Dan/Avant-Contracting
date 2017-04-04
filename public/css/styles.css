@@ -10,7 +10,6 @@
     left: 0px;
     display: flex;
     align-items: center;
-
     justify-content: space-between;
     flex-wrap: nowrap;
 }
@@ -29,4 +28,16 @@
 
 .navItem{
     color: black;
+}
+
+.nav>li>a:hover{
+    color: goldenrod;
+    background: none;
+}
+.expander{
+    border: black 2px solid;
+}
+
+.expander .icon-bar{
+    background-color: black;
 }
