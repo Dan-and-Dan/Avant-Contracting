@@ -1,3 +1,27 @@
 .carousel-item{
     height: 90vh;
 }
+
+@media screen and (max-width: 480px) {
+    .carousel-item {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 550px) {
+    .carousel-item {
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .carousel-item {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+    .carousel-item {
+        height: 80vh;
+    }
+}
