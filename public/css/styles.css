@@ -1,8 +1,13 @@
+.bg-inverse{
+    background-color:black !important;
+}
+
 .footContainer{
     z-index: 1000;
     text-align: center;
     color: white;
     background-color: black;
+    position: fixed;
     width: 100%;
     bottom: 0px;
     right: 0px;
