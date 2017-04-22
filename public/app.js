@@ -26,7 +26,11 @@ angular.module("avant", ['ngRoute'])
             controller: "homeController",
             templateUrl: "views/home/home.html"
         })
-        .otherwise('/dashboard', {
-            redirectTo: "/dashboard"
-        });
+        .when('#', {
+            controller: "homeController",
+            templateUrl: "views/home/home.html"
+        })
+//        .otherwise('/dashboard', {
+//            redirectTo: "/dashboard"
+//        });
 }]);

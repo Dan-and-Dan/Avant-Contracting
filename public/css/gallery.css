@@ -1,4 +1,43 @@
 .galleryDiv {
     text-align: center;
-    height: 400px;
+    padding-bottom: 5%;
+}
+.card {
+    color: black;
+    margin-left: 5%;
+    max-width: 40%;
+}
+.cardimage {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.modalbutton {
+    border: black 2px solid;
+    color: black;
+}
+
+.modalbutton:hover {
+    transition:  ease-in-out .4s;
+    color: white;
+    background-color: black;
+}
+
+.modalimg {
+    display: inline-block;
+    width: 20%;
+}
+
+.modalpano {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.modalimages {
+    display: inline-block;
+}
+
+.modal {
+    padding: 5%;
 }

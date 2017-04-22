@@ -58,3 +58,9 @@ nav {
     text-decoration: none;
     color: white;
 }
+
+footer {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
