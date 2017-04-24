@@ -55,18 +55,23 @@
 }
 
 .fade {
-    animation: fadein 2s;
+    animation: fadein 2.5s;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 @keyframes fadein {
     0% {
         opacity: 0;
+        filter:grayscale(100%);
+        
     }
     96% {
         opacity: 1;
+        filter:grayscale(0%);
     }
     100% {
         opacity: 1;
+        filter:grayscale(0%);
     }
 }
