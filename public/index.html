@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="avant">
 
 <head>
     <meta charset="UTF-8">
@@ -20,13 +20,9 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/gallery.css">
 
-    <!--- Owl Carousel --->
-    <link rel="stylesheet" href="../OwlCarousel2-2.2.1/dist/owl.carousel.min.js">
-    <link rel="stylesheet" href="../OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
-
 </head>
 
-<body>
+<body ng-controller="mainController">
     <div class="dashboard">
         <div class="logoContainer">
             <img src="./images/logofinal.jpeg">
@@ -91,48 +87,8 @@
         <div id="#gallery" class="galleryDiv">
             <h1>Gallery</h1>
             <!--- This is where that app comes in... gotta be able to post albums here that expand into modals w/ carousels... maybe a directive to handle the modal's view? --->
-            <div class="card">
-                <img class="card-img-top cardimage" src="./images/avantimages/donna/completedfireplace.JPG" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title">Donna Drive</h4>
-                    <p class="card-text">Home Remodeling on Donna Drive Colonie, NY</p>
-                    <button class="btn modalbutton" data-toggle="modal" data-target=".modal1">View Album</button>
-                </div>
-            </div>
 
-            <div class="modal fade modal1" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <h3 class="modaltitle">Donna Drive Colonie, NY</h3>
-                        <img class="modalpano" src="./images/avantimages/donna/upstairspanorama.JPG">
-                        <div id="owlContainer">
-                            <div class="owl-carousel owl-theme">
-                                <div class="owl-item">
-                                    <img class="owl-img" src="./images/avantimages/donna/cabinets.JPG">
-                                </div>
-                                <div class="owl-item">
-                                    <img class="owl-img" src="./images/avantimages/donna/completedfireplace.JPG">
-                                </div>
-                                <div class="owl-item">
-                                    <img class="owl-img" src="./images/avantimages/donna/completedkitchen.JPG">
-                                </div>
-                                <div class="owl-item">
-                                    <img class="owl-img" src="./images/avantimages/donna/drywallhall.JPG">
-                                </div>
-                                <div class="owl-item">
-                                    <img class="owl-img" src="./images/avantimages/donna/finishedupstairs.JPG">
-                                </div>
-                                <div class="owl-item">
-                                    <img class="owl-img" src="./images/avantimages/donna/inprogress.JPG">
-                                </div>
-                                <div class="owl-item">
-                                    <img class="owl-img" src="./images/avantimages/donna/tiling.JPG">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <card projects='cards'></card>
         </div>
         <div id="#contact" class="contactDiv">
             <h1>Contact</h1>
@@ -177,13 +133,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!---- Angular and Routing --->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
-
+    <script src="./app.js"></script>
+    <script src="./directives/directive.js"></script>
+    <script src="./directives/cards.js"></script>
 
     <!-- JS files / jQuery -->
-    <script src="app.js"></script>
-    <!--- owl carousel --->
-    <script src="../OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAflXkFV5a9-vSpIcwizNFVURxych_2PjQ&callback=initMap" async defer></script>
