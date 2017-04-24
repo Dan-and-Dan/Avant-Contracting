@@ -6,11 +6,7 @@ body {
     background-size: cover;
 }
 
-nav {
-    display: none !important;
-}
-
-.Container {
+.dashboard {
     margin-top: 10%;
 }
 
@@ -57,10 +53,4 @@ nav {
 .dashBtn a {
     text-decoration: none;
     color: white;
-}
-
-footer {
-    bottom: 0px;
-    position: fixed;
-    width: 100%;
 }
