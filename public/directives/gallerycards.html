@@ -1,5 +1,5 @@
 <div class="card" ng-repeat="card in cards">
-    <img class="card-img-top cardimage" ng-src="./images/avantimages/{{card.coverImage}}" alt="Card image cap">
+    <img class="card-img-top cardimage" ng-src="{{card.coverImage}}" alt="Card image cap">
     <div class="card-block">
         <h4 class="card-title">{{card.projectName}}</h4>
         <p class="card-text">{{card.description}}</p>
@@ -12,7 +12,7 @@
         <div class="modal-content">
             <h3 class="modaltitle">{{card.projectName}}</h3>
             <div class="cardImages" ng-repeat="image in card.images">
-                <img class="cardImage" src="./images/avantimages/{{card.image}}">
+                <img class="cardImage" src="{{card.image}}">
             </div>
         </div>
     </div>
