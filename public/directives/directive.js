@@ -6,6 +6,7 @@ angular.module("avant")
         scope: {
             projects: "="
         },
-        templateUrl: 'directives/gallerycards.html'
+        templateUrl: 'directives/gallerycards.html', 
+        controller: "cards"
     };
 });
