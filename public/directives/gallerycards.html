@@ -7,12 +7,14 @@
     </div>
 </div>
 
-<div class="modal fade modal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <h3 class="modaltitle">{{card.projectName}}</h3>
-            <div class="cardImages" ng-repeat="image in card.images">
-                <img class="cardImage" ng-src="{{card.image}}">
+<div class="modals" ng-repeat="card in cards">
+    <div class="modal fade modal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <h3 class="modaltitle">{{card.projectName}}</h3>
+                <div class="cardImages" ng-repeat="image in card.images">
+                    <img class="cardImage" ng-src="{{card.image}}">
+                </div>
             </div>
         </div>
     </div>
