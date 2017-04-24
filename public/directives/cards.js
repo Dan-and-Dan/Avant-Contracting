@@ -1,4 +1,4 @@
-angular.module("avant")
+angular.module("avant.cards", [])
 
 .controller("cards", ["$scope", function($scope){
     $scope.cards = [ {
