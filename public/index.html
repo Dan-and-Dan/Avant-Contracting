@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/gallery.css">
 
+    <!--- Owl Carousel --->
+    <link rel="stylesheet" href="../OwlCarousel2-2.2.1/dist/owl.carousel.min.js">
+    <link rel="stylesheet" href="../OwlCarousel2-2.2.1/dist/assets/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -100,15 +104,31 @@
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <h3 class="modaltitle">Donna Drive Colonie, NY</h3>
-                        <div class="modalimages">
-                            <img class="modalimg" src="./images/avantimages/donna/cabinets.JPG">
-                            <img class="modalimg" src="./images/avantimages/donna/completedfireplace.JPG">
-                            <img class="modalimg" src="./images/avantimages/donna/completedkitchen.JPG">
-                            <img class="modalimg" src="./images/avantimages/donna/drywallhall.JPG">
-                            <img class="modalimg" src="./images/avantimages/donna/finishedupstairs.JPG">
-                            <img class="modalimg" src="./images/avantimages/donna/inprogress.JPG">
-                            <img class="modalimg" src="./images/avantimages/donna/tiling.JPG">
-                            <img class="modalpano" src="./images/avantimages/donna/upstairspanorama.JPG">
+                        <img class="modalpano" src="./images/avantimages/donna/upstairspanorama.JPG">
+                        <div id="owlContainer">
+                            <div class="owl-carousel owl-theme">
+                                <div class="owl-item">
+                                    <img class="owl-img" src="./images/avantimages/donna/cabinets.JPG">
+                                </div>
+                                <div class="owl-item">
+                                    <img class="owl-img" src="./images/avantimages/donna/completedfireplace.JPG">
+                                </div>
+                                <div class="owl-item">
+                                    <img class="owl-img" src="./images/avantimages/donna/completedkitchen.JPG">
+                                </div>
+                                <div class="owl-item">
+                                    <img class="owl-img" src="./images/avantimages/donna/drywallhall.JPG">
+                                </div>
+                                <div class="owl-item">
+                                    <img class="owl-img" src="./images/avantimages/donna/finishedupstairs.JPG">
+                                </div>
+                                <div class="owl-item">
+                                    <img class="owl-img" src="./images/avantimages/donna/inprogress.JPG">
+                                </div>
+                                <div class="owl-item">
+                                    <img class="owl-img" src="./images/avantimages/donna/tiling.JPG">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,6 +182,8 @@
 
     <!-- JS files / jQuery -->
     <script src="app.js"></script>
+    <!--- owl carousel --->
+    <script src="../OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
 </body>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAflXkFV5a9-vSpIcwizNFVURxych_2PjQ&callback=initMap" async defer></script>
