@@ -7,11 +7,8 @@
 
     <!--- Bootstrap --->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
-
     <!--- Icons --->
     <script src="https://use.fontawesome.com/20bb1d4e17.js"></script>
-
     <!--- CSS --->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/dashboard.css">
@@ -19,7 +16,6 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/gallery.css">
-
 </head>
 
 <body ng-controller="mainController">
@@ -39,17 +35,10 @@
             <a class="navbar-brand" href="#">Avant Contracting</a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-<<<<<<< HEAD
-                    <a class="nav-item nav-link" href="#/home">Home</a>
-                    <a class="nav-item nav-link" href="#/about">About</a>
-                    <a class="nav-item nav-link" href="#/gallery">Gallery</a>
-                    <a class="nav-item nav-link" href="#/contact">Contact</a>
-=======
                     <a class="nav-item nav-link" du-scrollspy href="#home">Home</a>
                     <a class="nav-item nav-link" du-scrollspy href="#about">About</a>
                     <a class="nav-item nav-link" du-scrollspy href="#gallery">Gallery</a>
                     <a class="nav-item nav-link" du-scrollspy href="#contact">Contact</a>
->>>>>>> refs/remotes/origin/master
                 </div>
             </div>
         </nav>
@@ -94,7 +83,6 @@
         <div id="gallery" class="galleryDiv">
             <h1>Gallery</h1>
             <!--- This is where that app comes in... gotta be able to post albums here that expand into modals w/ carousels... maybe a directive to handle the modal's view? --->
-
             <gallery-cards projects='cards'></gallery-cards>
         </div>
         <div id="contact" class="contactDiv">
@@ -134,19 +122,15 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <!---- Angular and Routing --->
+    <!---- Angular --->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/1.0.0/angular-scroll.js"></script>
     <script src="./app.js"></script>
     <script src="./directives/cards.js"></script>
     <script src="./directives/directive.js"></script>
-
-
     <!-- JS files / jQuery -->
     <script src="main.js"></script>
 </body>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAflXkFV5a9-vSpIcwizNFVURxych_2PjQ&callback=initMap" async defer></script>
 <script type="text/javascript" src="map/map.js"></script>
-
-</html>
