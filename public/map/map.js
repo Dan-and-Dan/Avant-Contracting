@@ -1,4 +1,6 @@
+
 function initMap() {
+    setTimeout(function(){
     var styledMapType = new google.maps.StyledMapType(
            [
             {
@@ -191,8 +193,8 @@ function initMap() {
 
     var map = new google.maps.Map(document.getElementById('avantMap'), {
         center: {
-            lat: 42.7684,
-            lng: -73.8218
+            lat: 42.728,
+            lng: -73.781
         },
         mapTypeId: "hybrid",
         zoom: 12,
@@ -213,4 +215,5 @@ function initMap() {
 
     map.mapTypes.set('styled_map', styledMapType);
     map.setMapTypeId('styled_map');
+    }, 2000);
 }
