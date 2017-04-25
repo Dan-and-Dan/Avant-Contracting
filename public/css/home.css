@@ -29,3 +29,9 @@
         height: 80vh;
     }
 }
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .carousel-item {
+        height: 60vh;
+    }   
+}
