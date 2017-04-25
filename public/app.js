@@ -1,4 +1,4 @@
-angular.module("avant" , ["avant.cards"])
+angular.module("avant" , ["avant.cards", "duScroll"])
 
 .controller("mainController", ["$scope", "$window", function($scope, $window){
     
