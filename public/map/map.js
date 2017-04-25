@@ -1,4 +1,3 @@
-
 function initMap() {
     setTimeout(function(){
     var styledMapType = new google.maps.StyledMapType(
