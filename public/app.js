@@ -1,5 +1,5 @@
 angular.module("avant" , ["avant.cards", "duScroll"])
-
+.value('duScrollOffset', 50)
 .controller("mainController", ["$scope", "$window", function($scope, $window){
     
     $scope.sendEmail = function(email){

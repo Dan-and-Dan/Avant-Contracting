@@ -2,6 +2,10 @@
     height: 87vh;
 }
 
+#home, #about, #gallery, #contact { 
+    padding-top: 50px;
+}
+    
 @media screen and (max-width: 480px) {
     .carousel-item {
         height: 50vh;
