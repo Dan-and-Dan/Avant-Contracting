@@ -6,5 +6,4 @@ $(document).ready(function () {
     $('.btn').on('click', function () {
         $('.main').removeClass('fade');
     })
-
 });
