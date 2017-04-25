@@ -22,7 +22,7 @@
 
 </head>
 
-<body ng-controller="cards">
+<body ng-controller="mainController">
     <div class="dashboard">
         <div class="logoContainer">
             <img src="./images/logofinal.jpeg">
@@ -95,21 +95,17 @@
             <div class="formContainer">
                 <div class="form-group" align="center">
                     <label for="name">Name:</label>
-                    <input type="text" class="form-control" id="name">
+                    <input type="text" class="form-control" id="name" ng-model="email.name">
                 </div>
                 <div class="form-group">
                     <label for="number">Phone:</label>
-                    <input type="text" class="form-control" id="number">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="text" class="form-control" id="email">
+                    <input type="text" class="form-control" id="number" ng-model="email.phone">
                 </div>
                 <div class="form-group">
                     <label for="comment">Comment:</label>
-                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                    <textarea class="form-control" rows="5" id="comment" ng-model="email.comment"></textarea>
                 </div>
-                <button class="btn emailButton">Email Us</button>
+                <button class="btn emailButton" ng-click="sendEmail(email)">Email Us</button>
             </div>
         </div>
         <div id="avantMap"></div>
