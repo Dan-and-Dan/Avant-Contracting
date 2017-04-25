@@ -1,6 +1,10 @@
 .dashboard {
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
     background-image: url("../images/wood.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -11,13 +15,7 @@
 }
 
 .logoContainer {
-    padding-top: 10%;
-    max-height: 400px;
-    margin-top: 5%;
     margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .logoContainer img {
@@ -27,6 +25,7 @@
 }
 
 .buttonContainer {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,4 +53,15 @@
 .dashBtn a {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .logoContainer img {
+        height: 600px;
+        width: 600px;
+    }
+    .dashBtn {
+        font-size: 36px;
+        letter-spacing: 6px;
+    }
 }

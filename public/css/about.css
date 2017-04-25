@@ -18,3 +18,16 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .aboutDiv {
+        background-image: url("../images/aboutmobile.jpg");
+        background-attachment: scroll;
+    }
+    .text-container p{
+        font-size: 28px;
+    }
+    .text-container h1 {
+        font-size: 36px;
+    }
+}

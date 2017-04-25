@@ -25,12 +25,28 @@
     background-color: black;
 }
 
-.modalpano {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
 .modal {
     padding: 5%;
+}
+
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .card-title {
+        font-size: 36px;
+    }
+    .card-text {
+        font-size: 28px;
+    }
+    .modalbutton {
+        font-size: 28px;
+    }
+    .carousel-item img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .modal {
+        width: 100%;
+    }
+    carousel-inner {
+        height: 50vh;
+    }
 }

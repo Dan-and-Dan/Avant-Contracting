@@ -8,10 +8,6 @@
     background-size: cover;
 }
 
-.contactDiv h1 {
-    font-size: 56px;
-}
-
 #avantMap {
     height: 40vh;
     width: 100%;
@@ -47,4 +43,16 @@
     color: black;
     border: white 2px solid;
     margin-bottom: 20px;
+}
+@media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contactDiv {
+        background-image: url("../images/contactmobile.jpg");
+        background-attachment: scroll;
+    }
+    #avantMap {
+        height: 20vh;
+    }
+    .formContainer {
+        font-size: 36px;
+    }
 }
