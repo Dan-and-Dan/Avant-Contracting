@@ -3,7 +3,7 @@ $(document).ready(function () {
         $('.dashboard').hide();
         $('.main').removeClass('hide').addClass('fade');
     })
-    $('.modalbutton').on('click', function () {
+    $('.btn').on('click', function () {
         $('.main').removeClass('fade');
     })
 
