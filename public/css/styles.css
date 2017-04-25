@@ -102,4 +102,8 @@ carousel-control-prev {
         font-size: 46px;
         margin-top: 5%;
     }
+    footer {
+        min-height: 5%;
+        font-size: 28px;
+    }
 }
